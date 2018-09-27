@@ -1,33 +1,67 @@
 * {
     /* asterisk is all elements */
     padding: 10px;
-    margin: 10px;
-    /* background-color: hsl(285, 85%, 47%); */
+
     font-family: arial, sans-serif;
 
 }
 
 nav {
-    background-color: hsl(285, 85%, 47%);
+    background-color: hsl(285, 85%, 70%);
+}
+
+a {
+    color: hsl(285, 85%, 100%);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header {
     min-height: 10rem;
-    padding: 1rem;
-    border-top: 10px;
+
+    /*padding: 1rem; */
+    border-top: 10px solid;
+    border-top-color: hsl(285, 85%, 28%);
+    background-image: url("../img/pablo-garcia-saldana-27620-unsplash.png");
+    background-repeat: no-repeat;
+    background-color: hsl(285, 85%, 70%);
+    background-size: auto;
 
 
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
+    color: hsl(285, 85%, 28%);
+    text-shadow: 2px 2px hsl(285, 85%, 100%);
 
 }
 
-h2 {}
+h2 {
+    font-size: 4rem;
+    color: hsl(285, 85%, 85%);
+}
+
+h3 {
+    font-size: 3rem;
+    color: hsl(285, 85%, 85%);
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: hsl(285, 85%, 85%);
+}
 
 p {
 
     font-size: 1rem;
-    ;
+    color: hsl(285, 85%, 0%);
+}
+
+ul li {
+    display: inline;
 }
