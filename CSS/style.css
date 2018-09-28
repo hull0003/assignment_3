@@ -1,24 +1,21 @@
 * {
-    /* asterisk is all elements */
     padding: 2rem;
     font-family: arial, sans-serif;
-
+    color: hsl(0, 46%, 100%);
 }
 
 nav {
-    background-color: hsl(285, 85%, 70%);
-    min-height: 3rem;
+    background-color: hsl(0, 46%, 70%);
+    min-height: 5rem;
     padding-bottom: 0rem;
     padding-top: 1.5rem;
-
 }
 
 a {
-    color: hsl(285, 85%, 100%);
-    font-size: 2rem;
+    color: hsl(0, 46%, 100%);
+    font-size: 3.5rem;
     text-decoration: none;
-    padding-right: 4rem;
-
+    padding-right: 5rem;
 }
 
 a:hover {
@@ -27,39 +24,46 @@ a:hover {
 
 header {
     min-height: 10rem;
-    border-top: 1.25rem solid;
-    border-top-color: hsl(285, 85%, 28%);
+    border-top: 2rem solid;
+    border-top-color: hsl(0, 46%, 34%);
     background-image: url("../img/pablo-garcia-saldana-27620-unsplash.png");
     background-repeat: no-repeat;
-    background-color: hsl(285, 85%, 70%);
+    background-color: hslcolor: hsl(0, 46%, 70%);
     background-size: 100% 100%;
-
+    padding-top: 0rem;
+    padding-bottom: 6rem;
 }
 
 h1 {
-    font-size: 5rem;
-    color: hsl(285, 85%, 28%);
-    text-shadow: 2px 2px hsl(285, 85%, 100%);
+    font-size: 8rem;
+    color: hsl(0, 46%, 34%);
+    text-shadow: 2px 2px hsl(0, 46%, 100%);
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+
 
 }
 
-h2 {
-    font-size: 4rem;
-    color: hsl(285, 85%, 85%);
+.username {
+    font-size: 6rem;
+    text-shadow: none;
+    color: hsl(0, 46%, 85%);
+    padding-top: 0rem;
+
 }
 
 
-h3 {
+.subheading1 {
 
     font-size: 3rem;
-    color: hsl(285, 85%, 85%);
+    color: hsl(0, 85%, 70%);
     padding-top: 0rem;
     padding-bottom: 0rem;
 }
 
-h4 {
+.subheading2 {
     font-size: 1.5rem;
-    color: hsl(285, 85%, 85%);
+    color: hsl(0, 46%, 85%);
     padding-bottom: 0rem;
 }
 
@@ -69,7 +73,7 @@ p {
     padding-left: 3rem;
     padding-right: 3rem;
     font-size: 1rem;
-    color: hsl(285, 85%, 0%);
+    color: hsl(0, 46%, 0%);
     line-height: 1.5rem;
 }
 
@@ -81,4 +85,5 @@ ul {
 li {
     padding-top: 0rem;
     padding-bottom: 0.5rem;
+    color: hsl(0, 46%, 0%);
 }
