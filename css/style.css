@@ -1,0 +1,89 @@
+* {
+    padding: 2rem;
+    font-family: arial, sans-serif;
+    color: hsl(0, 46%, 100%);
+}
+
+nav {
+    background-color: hsl(0, 46%, 70%);
+    min-height: 5rem;
+    padding-bottom: 0rem;
+    padding-top: 1.5rem;
+}
+
+a {
+    color: hsl(0, 46%, 100%);
+    font-size: 3.5rem;
+    text-decoration: none;
+    padding-right: 5rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    min-height: 10rem;
+    border-top: 2rem solid;
+    border-top-color: hsl(0, 46%, 34%);
+    background-image: url("../img/pablo-garcia-saldana-27620-unsplash.png");
+    background-repeat: no-repeat;
+    background-color: hslcolor: hsl(0, 46%, 70%);
+    background-size: 100% 100%;
+    padding-top: 0rem;
+    padding-bottom: 6rem;
+}
+
+h1 {
+    font-size: 8rem;
+    color: hsl(0, 46%, 34%);
+    text-shadow: 2px 2px hsl(0, 46%, 100%);
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+
+
+}
+
+.username {
+    font-size: 6rem;
+    text-shadow: none;
+    color: hsl(0, 46%, 85%);
+    padding-top: 0rem;
+
+}
+
+
+.subheading1 {
+
+    font-size: 3rem;
+    color: hsl(0, 85%, 70%);
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.subheading2 {
+    font-size: 1.5rem;
+    color: hsl(0, 46%, 85%);
+    padding-bottom: 0rem;
+}
+
+p {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1rem;
+    color: hsl(0, 46%, 0%);
+    line-height: 1.5rem;
+}
+
+ul {
+    padding-top: 0rem;
+    padding-left: 3rem;
+}
+
+li {
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+    color: hsl(0, 46%, 0%);
+}
