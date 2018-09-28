@@ -69,7 +69,6 @@ h1 {
 
 p {
     padding-top: 0rem;
-    padding-bottom: 0rem;
     padding-left: 3rem;
     padding-right: 3rem;
     font-size: 1rem;
@@ -85,5 +84,6 @@ ul {
 li {
     padding-top: 0rem;
     padding-bottom: 0.5rem;
+    padding-left: 1rem;
     color: hsl(0, 46%, 0%);
 }
